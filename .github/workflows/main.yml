@@ -1,8 +1,8 @@
-name: Windows-Litemanger
+name: Windows - Litemanger
 on:
- workflow_dispatch:
+  workflow_dispatch:
 
- fork:
+ jobs:
    build:
    name: Start Building...
    runs-on: windows-latest
